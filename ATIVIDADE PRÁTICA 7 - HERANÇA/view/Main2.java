@@ -17,7 +17,6 @@ public class Main2 {
 
 	        System.out.println();
 
-	        // Pagamento com cartão
 	        PagamentoCartao pagamentoCartao = new PagamentoCartao(valorProduto);
 	        System.out.println("Pagamento com Cartão");
 	        System.out.println(pagamentoCartao.emitirRecibo());
