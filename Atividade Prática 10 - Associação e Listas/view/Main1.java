@@ -18,8 +18,7 @@ public class Main1 extends JFrame {
     private JTextField txt_nome;
     private JTextField txt_email;
 
-    private Empresa empresa = new Empresa(); // OBJETO ÚNICO
-
+    private Empresa empresa = new Empresa(); 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
             try {
